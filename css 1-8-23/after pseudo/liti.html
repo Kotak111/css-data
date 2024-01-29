@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            position: relative;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        a::after{
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0%;
+            height: 5px;
+            background-color: red;
+            transition: all 1s linear;
+        }
+        a:hover::after{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+   <a href="">Hello world</a>
+</body>
+</html>

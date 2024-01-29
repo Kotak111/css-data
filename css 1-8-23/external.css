@@ -1,0 +1,29 @@
+h1
+{
+    color: red;
+    background-color: burlywood;
+    border: 50px solid tomato;
+    margin: auto;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+}
+.one{
+    color: blue;
+    background-color: aquamarine;
+    border: 30px solid violet;
+    margin: auto;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+#one{
+    color: tomato;
+    background-color: skyblue;
+    border: 20px solid black;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    
+}

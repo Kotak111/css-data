@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display-Flex</title>
+    <style>
+        .main
+        {
+            width: 70%;
+            height: 900px;
+            /* border: 2px solid red; */
+            margin: auto;
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        }
+        h1{
+            text-align: center;
+        }
+        .parent
+        {
+            width: 90% ;
+            height: 800px;
+            /* border: 1px solid blue; */
+            margin: auto;
+        }
+        .mini-parent{
+            width: 100%;
+            margin: auto;
+            height: 31%;
+            /* border: 1px solid teal; */
+            margin-top: 10px;
+            display: flex;
+        }
+        .child-1{
+            /* border: 1px solid rgb(204, 0, 255); */
+            width: 30%;
+            height: 100%;
+            margin: auto;
+
+        }
+        .child-2{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+              width: 24%;
+              height: 100%;
+              margin: auto;
+        }
+        .img1{
+            width: 100%;
+            height: 70%;
+        }
+        .p-tag{
+            text-align: left;
+            font-size: 12px;
+
+        }
+        .img2{
+          width: 100%;
+          height: 50%;
+        }
+        p{
+           text-align: center;
+           /* font-size: 15px; */
+
+        }
+        .font{
+            font-family: one;
+            font-size: 19px;
+        }
+        @font-face {
+            font-family: one;
+            src: url(southern_beach/Southern\ Beach.otf);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Our Blog Posts</h1>
+   <div class="parent">
+    <div class="mini-parent">
+        <div class="child-1">
+            <img src="https://media.istockphoto.com/id/1300757575/photo/side-view-of-hotel-amenities-on-the-bed.webp?b=1&s=612x612&w=0&k=20&c=sGr-07f_yYF6SylSjeQeQcbj285CkDcI89EJ2GDWNXU=" alt="" class="img1">
+            <p class="p-tag">29 January 2019</p>
+            <b><p class="p-tag">Architectural Art Modern</p></b>
+        </div>
+        <div class="child-1">
+            <img src="https://cdn.pixabay.com/photo/2020/04/17/12/24/bed-5054985_640.jpg" alt="" class="img1">
+            <p class="p-tag">29 January 2019</p>
+            <b><p class="p-tag">Architectural Art Modern</p></b>
+        </div>
+        <div class="child-1">
+            <img src="https://media.istockphoto.com/id/627892060/photo/hotel-room-suite-with-view.webp?b=1&s=612x612&w=0&k=20&c=lm2XpJ41RHFwgVSmmLQyYMU_vCYy69jrBO8TmAYYgt0=" alt="" class="img1">
+            <p class="p-tag">29 January 2019</p>
+            <b><p class="p-tag">Architectural Art Modern</p></b>
+        </div>
+    </div>
+    <div class="mini-parent">
+        <div class="child-2">
+            
+            <img src="download.jpg" alt="" class="img2">
+      <b> <p class="font">Creative Design</p></b>
+            <p>Far far away behind the word mountains, far from the countries vokalia.</p>
+        </div>
+        <div class="child-2">
+            <img src="digital.jpg" alt="" class="img2">
+          <b><p class="font">Digital Marketing</p></b>
+            <p>Far far away behind the word mountains, far from the countries vokalia.</p>
+        </div>
+        <div class="child-2">
+            <img src="app.jpg" alt="" class="img2">
+            <b><p class="font">Application Design    </p></b>
+            <p>Far far away behind the word mountains, far from the countries vokalia.</p>
+        </div>
+        <div class="child-2">
+            <img src="web.jpg" alt="" class="img2">
+      <b><p class="font">Web Development</p></b>
+            <p>Far far away behind the word mountains, far from the countries vokalia.</p>
+        </div>
+    </div>
+    <div class="mini-parent">
+     <div class="child-2">
+        <img src="brand.jpg" alt="" class="img2">
+            <b><p class="font">Branding</p></b>
+            <p>Far far away behind the word mountains, far from the countries vokalia.</p>
+     </div>
+        <div class="child-2">
+            <img src="graphic.jpg" alt="" class="img2">
+            <b><p class="font">Graphic Design</p></b>
+            <p>Far far away behind the word mountains, far from the countries vokalia.</p>
+        </div>
+        <div class="child-2">
+            <img src="email.png" alt="" class="img2">
+      <b><p class="font">Email Marketing</p></b>
+            <p>Far far away behind the word mountains, far from the countries vokalia.</p>
+        </div>
+        <div class="child-2">
+            <img src="web.jpg" alt="" class="img2">
+        <b><p class="font">Web Design</p></b>
+            <p>Far far away behind the word mountains, far from the countries vokalia.</p>
+        </div>
+        </div>
+   </div>
+    </div>
+</body>
+</html>

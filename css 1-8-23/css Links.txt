@@ -1,0 +1,2 @@
+text-shadow :- https://www.cssportal.com/css3-text-shadow-generator/
+	       https://www.cssportal.com/css3-text-shadow-generator/

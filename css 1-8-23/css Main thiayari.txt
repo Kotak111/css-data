@@ -1,0 +1,427 @@
+	date 1/8/2023 :
+
+1.css :  cascading style sheet ( use to create and apply beautifulity in your website).
+
+2.extension :- .css
+
+3. types of css:-(a)In-Line css
+		 (b)Internal css
+		 (c)External 
+(a)Inline :- <div style="color:red"></div>
+		style=attribute , color=property , red=value
+
+(b)Internal:-
+ <style>
+	h1{
+		color=red;
+		}
+	<h1>helo</h1>
+</style>
+
+(c)External :-
+	one page html and one page html .describe css file link in html page.
+
+	two types of part two use css uniquely :- class (.)
+						   id(#)
+
+Box Model:-margin,padding,border,content
+________________________________________________________________________________________________________________________________________________
+date 2/8/2023 : 
+
+today topic is text property.
+
+1.text alignment :- right,left,center,justify(that used to set a proper world line).
+			ex.... text-align:justify;
+
+2.text decoration :- overline,line-through,underline,underline-overline,none,text-decoration: underline red double 5px;
+			ex.......text-decoration : underline overline;
+
+3.text transform :- upper,lower,capitalize.
+			ex.......text-transform:capitalize;
+
+4.text indent :- to use same as a margin to move word in left to right side
+			ex........text-indent:100px;
+
+5.text spacing:- word-spacing,letter-spacing,line-height.
+			ex.......letter-space:30px;
+
+6.text-shadow:- shadow of text.
+		ex.....text-shadow: 2px(horizontal) 2px(vertical) 5px(blur) red;
+
+7.box-shadow :- 
+
+8.font family :- choose font family means font style..
+
+9.font-size :- set a font size.
+			ex.....font-size:9px;
+
+10.font-weight :- same as a margin to world move on the right side
+			ex....font-weight:100px;
+
+11.font style: set a font style.
+		ex........font-style-italic..
+________________________________________________________________________________________________________________________________________________
+date: 3/8/2023 
+
+today topic is font-family in external , font-awesome , disply-flex
+
+1.font-family :- 
+apply two way 1)google font(online) 2)dafont using download and apply text.
+
+2.font-awesome
+using icon in your page.
+
+3.display-flex
+that use to block element to inline element.....
+________________________________________________________________________________________________________________________________________________
+date:4/8/2023
+
+today topic is box model: like padding ,margin,image etc....
+
+margin is top,right,bottom,left..
+margin: 20px(right,left) 20px(top,bottom)
+
+padding is top,right,bottom,left
+padding: 20px(right,left) 20px(top,bottom)
+
+image like fit in border box:
+<style>
+.main{
+   width:400px;
+   height:400px;
+   margin:auto;
+  border : 1px solid teal;
+  border-radius:10px;
+}
+img{
+width:100%;
+height:100%
+object-fix:cover;
+border-radius: 10px 10px 0px 0px;
+
+}
+</style>
+<body>
+<div class="main">
+<img src="">
+</div>
+
+*universal selector
+*{
+   box-sizing:border-box;
+ }
+ that use to not resize of border box...
+________________________________________________________________________________________________________________________________________________
+date 14/8/2023
+
+today topic is background...
+
+1)background-color;
+  background:url();
+  background-repeat:repeat-x/y/none; (that show only x or y or none images).	
+  background-attachment:scroll/fixed.
+
+position:-
+-----------
+left top
+left center
+left bottom
+right center
+right top
+right bottom
+center top
+center center
+center bottom
+
+opicity:
+thats work on transparent on images.
+background-size :-
+________________________________________________________________________________________________________________________________________________
+date 15/8/2023
+
+today topic is display properties.
+1.display : inline -not allowed height and weight.
+2.display :block - to use inline and element to block element.
+3.display : inline-block same as inline but that allowed height and weight.
+________________________________________________________________________________________________________________________________________________
+date 16/8/2023
+
+today topic is display float.
+that two value right left;
+main is clear both to another dicv in next line.
+.main>div
+mins under main class all div style apply.
+________________________________________________________________________________________________________________________________________________
+date 17/8/2023
+
+today topic is selector.
+1.universal
+2.tag
+3.class 
+4.id
+**Combimator selector **
+1.descendant selector(_space)
+<style>
+      .main p{
+        color:red;
+      }
+    </style>
+<body>
+    <div class="main">
+     <p>helo</p>
+     <p>helo</p>
+     <p>helo</p>
+     <p>helo</p>
+    </div>
+    <p>helo</p>
+</body>
+2.child selector(>)
+ <style>
+        .main>p{
+              color: red;
+        }
+    </style>
+ <div class="main">
+     <p>helo</p>
+     <p>helo</p>
+     <p>helo</p>
+     <p>helo</p>
+    </div>
+    <p>helo</p>
+3.general selector(~)
+<style>
+      p~p{
+        color: red;
+      }
+    </style>
+<body>
+    <p>one</p>
+    <p>one</p>
+    <p>one</p>
+    <p>one</p>
+    <p>one</p>
+</body>
+4.adjacent selector(+)
+ <style>
+      p+p{
+        color: red;
+      }
+    </style>
+<body>
+    <p>one</p>
+    <p>one</p>
+    <p>one</p>
+    <p>one</p>
+    <p>one</p>
+   
+</body>
+-----------------------
+*attribute selector...
+input::placeholder
+
+*multiple selector
+--------------------------
+*pseudo class
+	1):hover
+	2):nth-child
+	3):last-child
+	4):first-child
+--------------------------
+*pseudo elements
+	1)::first letter
+	2)::first line
+-------------------------
+*::section 
+   to use select this item and chenage back color and font color etc....
+________________________________________________________________________________________________________________________________________________
+date 18/8/2023
+ today topic is object-position and transform..
+
+object-position to use only image set to left and top...
+img{
+	width:;
+	height:;
+	border:;
+	object-position:10px 10px;
+	}
+	<img>
+--------------------------------
+* attribute selector
+
+	a[target]{
+	bg-color:red;
+	}
+	< a href="#" target="_blank">google</a>
+---------------------------------------
+* transform
+	1)scale
+	2)skew
+	3)rotate
+	4)translate
+	
+1----scale
+   to use double size odf sqaure etc...
+	div{
+	width:
+	height:
+	bg-color:
+	margin:
+	}
+	div:hover{
+	transform:scaleX(0.5);
+	transform:scaleY(0.5);
+	transform:scale(0.5);
+	}
+	<div></div>
+----------------------------------------
+2------rotate
+   rotate to degree wise
+	transform:rotate(60 deg);
+----------------------------------------
+3---------------skew
+       to use same as rotate
+	transform:skew(90deg);
+---------------------------------------
+4--------------translate
+	to translate using x and y 
+	transform:translate(50px 50px);
+________________________________________________________________________________________________________________________________________________date 21/8/2023
+
+today topic is position
+1)static 
+2)relative
+3)fixed
+4)absolute
+5)sticky
+----------
+1)static :
+	static positioned element are not affected by the top,bottom,left,right properties...
+	
+2)relative :
+	an element with position:relative is positioned relative to its normal position
+	property:top,left,right,bottom
+
+3)fixed :
+	 an element stays in the same place even if the page is scrolled.
+	properties:top,right,bottom,left
+
+4)absolute: 
+	an element with position absolute is positioned releative to the nearest positioned ancestor.
+	properties:top,right,bottom,left
+
+5)sticky:
+	an element with position sticky is positioned based on the users scroll position.
+	properties:top,right,bottom,left
+
+----------------------------------------------------------------------------------------------
+ * z-index:(by default 1)
+	overlap 
+	stack order
+	note: z-index only works on position
+
+	top
+	bottom --------------> only one use in transform
+	
+	left 
+	right--------------------> only one use in transform
+------------------------------------------------------------------------------------------------
+*overflow
+	overflow-x;
+	overflow-y;
+	div{
+		width:
+		height:
+		border:
+		overflow:auto;
+		}
+	img{
+		width:
+		height:
+		}
+	<div>
+		<img>
+	</div>
+________________________________________________________________________________________________________________________________________________
+date 22/8/23
+
+   today topic is transition and before and after.
+
+	transition are a way to smoothly animate changing in property values over a specified duration.transition engaging and visually appeling
+	by creating smooth animate between different states of an element.
+
+	properties:
+	1)transition
+	2)transition-property
+	3)transition-duration
+	4)transition-delay
+	5)transition-timing-function
+
+	one example :- 
+	
+	div{
+		width:
+		height:
+		bg-color:red;	
+		margin:auto;
+		transform:scale(1);
+		transition-property:transform;
+		transition-duration:2s;
+		transition-timing-function:liner;
+		transiotion-delay:2s;
+		}
+	div:hover{
+	transform:scale(2)
+	}
+	<div></div>
+
+	shortcut of transition --------------  transiotion:all 2s linear;
+
+	liner or....
+		-ease
+		-ease-in
+		-ease-in-out
+		-ease-out
+	
+-----------------------------------------------------------------
+befor :
+ tag se pahele
+	p::befor{
+		content:"helo";
+		color:red;
+	}
+	<p>hello world</p>
+----------------------------------------------------------
+after :
+   tag ke bad
+	p::after{
+		content:"helo";
+		color:red;
+		}
+	<p>hello world</p>
+________________________________________________________________________________________________________________________________________________
+date 23/8/2023
+	today topic is display flex properties...
+	1)flex-direction
+	2)flex-wrap
+	3)flex-flow (shortcut of upper two)
+
+1)flex-direction :- 
+	flex-direction:row;
+	flex-direction:column;
+	flex-direction:row-reverse
+	flex-direction:column-reverse
+
+2)flex-wrap :-
+	flex-wrap:nowrap;
+	flex-wrap:wrap;
+	flex-wrap:wrap-reverse;
+
+3)flex-flow :-
+ 	flex-flow :- row wrap-reverse..
+
+  main point:-div .one{$}*5
+________________________________________________________________________________________________________________________________________________
+
+
+	
+

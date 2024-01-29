@@ -1,0 +1,60 @@
+.alignment{
+    /* text-alignment */
+    width: 300px;
+    height: 300px;
+    border: 4px solid sienna;
+    background-color: aqua;
+    color: red;
+    text-align: center;
+
+    text-align: right;
+    text-align: left;
+    text-align: justify;
+}
+.decoration{
+    /* text decoration */
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: overline underline;
+    text-decoration: underline double 5px red;
+    text-decoration: none;
+}
+.transform{
+    /* text transform */
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+.indent{
+    /* text indent */
+    text-indent: 100px;
+}
+.space{
+    /* text spacing */
+    word-spacing: 20px;
+    letter-spacing: 30px;
+    line-height: 40px;
+}
+.shadow
+{
+    /* text shadow */
+    text-shadow: 4px 4px 4px red;
+}
+.family
+{
+    /* font family */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.size{
+    /* font size */
+    font-size: 50px;
+}
+.weight{
+   /* font weight */
+   font-weight: lighter;
+}
+.style{
+    /* font style */
+    font-style: italic;
+}
+

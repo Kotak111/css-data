@@ -1,0 +1,77 @@
+.container{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 40px;
+}
+.main
+{
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    /* border: 1px solid teal; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* display: flex; */
+}
+.head{
+    text-align: center;
+    color: red  ;
+}
+.parent
+{
+    /* border: 1px solid orange; */
+    width: 100%;
+    height: 30%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+   
+}
+.child{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+   
+}
+.child2{
+    width: 50%;
+    height: 100%;
+    border: 1px solid blue;
+    border-radius: 7px 0px 0px 0px;
+}
+.child3{
+    width: 50%;
+    height: 100%;
+    border: 1px solid blue;
+   
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px 0px 0px 0px;
+}
+.btn{
+    margin-left: 9px;
+    color: black;
+    background-color: pink;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.movie-name{
+    text-transform: capitalize;
+    margin-left: 7px;
+}
+.movie-date{
+    margin-left: 7px;
+    text-transform: capitalize;
+}
+.movie-name-bj{
+    font-size: 23px;
+    text-transform: capitalize;
+}
